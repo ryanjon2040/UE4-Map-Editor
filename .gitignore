@@ -1,0 +1,18 @@
+# Ignore project files in the root
+/*.sln
+*.suo
+*.opensdf
+*.sdf
+/*.xcodeproj
+
+# Ignore these directories
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Plugins/**/Binaries/**
+Plugins/**/Intermediate/**
+Saved/
+
+# Ignore Mac desktop services store files 
+.DS_Store
